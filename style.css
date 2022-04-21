@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    width: 100%;
+}
+
+h1 {
+    margin: 20px;
+    text-align: center;
+    font-size: 35px;
+    width: 90%;
+    text-shadow: 2px 3px #099bf5;
+    color: whitesmoke;
+}
+
+.container-button {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 30px;
+    padding: 20px;
+
+
+}
+
+button {
+    width: 15%;
+    border: 3px solid black;
+    border-radius: 30px;
+    height: 40px;
+    box-shadow: 5px 10px 20px rgb(100, 55, 55) inset;
+}
+
+.click-button {
+    background-color: rgb(91, 104, 216);
+    color: whitesmoke;
+}
+
+.reset-button {
+    background-color: red;
+    color: whitesmoke;
+}
+
+#textCreated {
+    margin-top: 5%;
+    padding: 5px;
+    text-align: center;
+    font-size: 34px;
+    background-image: linear-gradient(to left, red, orange, yellow, green, blue, indigo, violet);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
